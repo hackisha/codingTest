@@ -1,6 +1,8 @@
 # BFS
 너비우선 탐색
 
+최단거리 찾을 때 사용
+
 ## 기본형태
 ```python
 from collections import deque
@@ -34,8 +36,8 @@ def bfs(graph, start_node, visited):
                 visited[neighbor] = True
 ```
 
-
-## deque()
+## 배운거
+### deque()
 하나의 인자만 받을 수 있음
 ex)
 ```python
@@ -43,3 +45,10 @@ queue = deque()
 
 queue.append((a,b)) # 인자 튜플로 넘겨야함
 ```
+### 리스트 컴프리헨션
+```python
+[[0] * M for _ in range(N)]
+```
+([0] 리스트 M번 반복 즉, 행 생성) -> N번 반복
+
+[[0] * M for _ in range(N]
