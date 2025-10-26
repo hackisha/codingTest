@@ -33,3 +33,13 @@ def bfs(graph, start_node, visited):
                 # 9. 방문 처리
                 visited[neighbor] = True
 ```
+
+
+## deque()
+하나의 인자만 받을 수 있음
+ex)
+```python
+queue = deque()
+
+queue.append((a,b)) # 인자 튜플로 넘겨야함
+```
