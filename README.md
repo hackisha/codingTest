@@ -6,7 +6,7 @@ https://freedeveloper.tistory.com/373 <br>
 
 인덱스 신경쓰기, 자료형 헷갈리면 그냥 print(type(x)) 찍어보기
 
-<br>
+
 ### 파이썬에서 함수는 여러 개의 반환 값을 가질 수 있다..(;;)<br>
 ``` python
 def operator(a, b):
@@ -49,5 +49,7 @@ result = map(lambda a, b: a+ b, list1, list2)
 
 print(list(result))
 
+
+result = map(lambda a,b : a+b, list1, list2)
 #결과: [7,9,11,13,15]
 ```
